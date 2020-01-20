@@ -24,18 +24,18 @@ public class ConsoleInput {
         return sc.nextLine();
     }
 
-    private String getUserInput3() {
-        System.out.println("Enter a name : ");
-        return System.console().readLine();
-    }
+//    private String getUserInput3() {
+//        System.out.println("Enter a name : ");
+//        return System.console().readLine();
+//    }
 
     public static void main(String[] args) {
         ConsoleInput ci = new ConsoleInput();
         System.out.println("You entered : " + ci.getUserInput1());
         System.out.println("-------------");
         System.out.println("You entered : " + ci.getUserInput2());
-        System.out.println("-------------");
-        System.out.println("You entered : " + ci.getUserInput3());
+//        System.out.println("-------------");
+//        System.out.println("You entered : " + ci.getUserInput3());
         Testing t = new Testing();
     }
 }
